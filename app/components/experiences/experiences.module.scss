@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5rem;
+    background-image: url('/images/wildlife4.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-position: center;
+    
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 10, 10, 0.85);
+        z-index: 0;
+      }
+
+  .content_container{
+    color: #f7f6ec;
+    z-index: 1;
+    text-align: center;
+    .title {
+        z-index: 1;
+        font-size: 3.5rem;
+        font-weight: 700;
+    
+        @media screen and (max-width: 768px) {
+          font-size: 2.5rem;
+        line-height: 3.2rem;
+    
+        }
+      }
+      .desc {
+        font-size: 1rem;
+        font-weight: 500;
+        display: flex;
+        padding:0 15rem;
+        margin-top: 2rem;
+        color: #d1d0d0;
+        @media screen and (min-width: 1280px)  {
+          padding: 0 25rem;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+          padding: 0 2rem;
+        }
+    }
+    .btn {
+      height: 40px;
+      width: 120px;
+      color: #6b3e2e;
+      border: 1px solid #6b3e2e;;
+      border-radius: 5px;
+        }
+  }
+
+
+
+}

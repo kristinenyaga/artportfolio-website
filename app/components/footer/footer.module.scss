@@ -1,0 +1,157 @@
+.container {
+  background-color: #13130d;
+  font-family: "Poppins", sans-serif;
+  color: #f7f6ec;
+
+  @media screen and (min-width: 1500px) {
+    padding: 0 5%;
+  }
+
+  @media screen and (min-width: 1600px) {
+    padding: 0 8%;
+  }
+
+  @media screen and (min-width: 1700px) {
+    padding: 0 11%;
+  }
+
+  .container_content {
+    padding: 1rem 2rem;
+
+    @media screen and (max-width: 768px) {
+      padding: 1rem 2rem 2rem;
+    }
+
+
+    .footer_content {
+      margin-bottom: 3rem;
+
+      .afyalife {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+        p {
+          font-size: 14px;
+          @media screen and (min-width: 768px) and (max-width: 1024px) {
+            font-size: 10px;
+          }
+        }
+        h1 {
+          font-family: "Playfair Display", serif;
+          font-size: 18px;
+          color: #6b3e2e;
+          @media screen and (min-width: 768px) and (max-width: 1024px) {
+            font-size: 10px;
+          }
+        }
+      }
+
+      .links {
+        margin-left: 30%;
+
+        @media screen and (max-width: 768px) {
+          margin-left: 0;
+        }
+
+        h4 {
+          color: #6b3e2e;
+          font-size: 18px;
+          margin-bottom: 1rem;
+          font-weight: 500;
+        }
+
+        ul {
+          list-style: none;
+
+          li {
+            font-size: 14px;
+            margin-bottom: 0.7rem;
+          }
+        }
+      }
+
+      .contact {
+        h4 {
+          color: #6b3e2e;
+          font-size: 18px;
+          margin-bottom: 1rem;
+          font-weight: 500;
+        }
+
+        ul {
+          list-style: none;
+
+          li {
+            font-size: 14px;
+            margin-bottom: 0.7rem;
+          }
+        }
+      }
+    }
+
+    .legal_container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border-bottom: #bec0c331 1px solid;
+      padding: .5rem;
+
+      @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5%;
+
+        .icons {
+          order: 1;
+        }
+
+        .legal_parent {
+          order: 2;
+        }
+      }
+
+      .legal_parent {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+
+        @media screen and (max-width: 768px) {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+
+        .legal {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: 3rem;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+          gap: 2rem;
+        }
+      }
+    }
+  }
+}

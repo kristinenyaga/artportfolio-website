@@ -1,0 +1,30 @@
+.container {
+  max-width: 500px;
+
+  @media screen and (min-width: 508px) {
+    max-width: 1350px;
+    
+  }
+
+@media screen and (min-width: 1300px) {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .testimonies {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    .wrap-testimony {
+      text-align: left;
+
+      .client {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+    }
+  }
+}
