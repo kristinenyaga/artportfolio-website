@@ -13,7 +13,7 @@ const FooterComponent = () => {
           <div className={styles.afyalife}>
             <h1>KIM BRONZE</h1>
             <p>
-              Kim Bronze Sculptures is dedicated to bringing the essence of Africa's
+              Kim Bronze Sculptures is dedicated to bringing the essence of Africa&apos;s
               wildlife to life through handcrafted art. With decades of experience,
               Kimani Kiarie transforms raw materials into timeless pieces, reflecting
               the beauty and spirit of African nature.

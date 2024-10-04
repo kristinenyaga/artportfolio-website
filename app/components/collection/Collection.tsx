@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './collection.module.scss'
-import { elephantScuplture, giraffeScuplture, lionScuplture } from '@/public/constants/image'
-import Image from 'next/image'
 import Carousel from '../carousel/Carousel'
 const Collection = () => {
   return (

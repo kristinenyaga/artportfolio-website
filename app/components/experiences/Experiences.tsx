@@ -1,23 +1,8 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './experiences.module.scss'
-import { FaArrowDown, FaArrowUp } from 'react-icons/fa6';
 
 const Experiences = () => {
-  // State for toggling the content visibility
-  const [isVisible, setIsVisible] = useState({
-    museum: false,
-    freelance: false,
-    film: false,
-  });
-
-  // Function to handle toggling for each section
-  const toggleVisibility = (section) => {
-    setIsVisible((prevState) => ({
-      ...prevState,
-      [section]: !prevState[section],
-    }));
-  };
 
   return (
     <div className={styles.container}>
@@ -95,8 +80,8 @@ const Experiences = () => {
 
         </div> */}
         <div>
-          <p className={styles.title}>Bring Africa’s <span className='text-[#6b3e2e]'>Wildlife</span>  to Life in Your Space</p>
-          <p className={styles.desc}>Explore the breathtaking sculptures of Kimani Kiarie, a master of cold cast techniques. Each piece is a tribute to Africa's rich natural heritage, handcrafted to capture the spirit of its majestic wildlife</p>
+          <p className={styles.title}>Bring Africa&apos;s <span className='text-[#6b3e2e]'>Wildlife</span>  to Life in Your Space</p>
+          <p className={styles.desc}>Explore the breathtaking sculptures of Kimani Kiarie, a master of cold cast techniques. Each piece is a tribute to Africa&apos;s rich natural heritage, handcrafted to capture the spirit of its majestic wildlife</p>
         </div>
       </div>
     </div>
